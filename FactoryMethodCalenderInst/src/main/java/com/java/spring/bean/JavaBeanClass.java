@@ -18,5 +18,11 @@ public class JavaBeanClass {
 		this.strVar = strVar;
 	}
 	
+	@Override
+	public String toString() {
+		return "JavaBeanClass [intVar=" + intVar + ", strVar=" + strVar + "]";
+	}
+	
+	
 	
 }
