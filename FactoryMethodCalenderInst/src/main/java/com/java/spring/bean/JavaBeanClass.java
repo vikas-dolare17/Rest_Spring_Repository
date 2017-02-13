@@ -1,5 +1,5 @@
 package main.java.com.java.spring.bean;
-// This is bean
+// This is bean class 
 
 public class JavaBeanClass {
 
