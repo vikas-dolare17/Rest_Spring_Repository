@@ -24,6 +24,7 @@ public class JavaBeanClass {
 	}
 	public void setFloatVar(float floatVar) {
 		this.floatVar = floatVar;
+	}	
 	public double getDoubleVar() {
 		return doubleVar;
 	}
