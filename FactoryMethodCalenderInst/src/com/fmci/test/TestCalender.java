@@ -13,9 +13,13 @@ public class TestCalender {
 		// Branch 1 Modified this changes
 		ApplicationContext contextBranch1 = new ClassPathXmlApplicationContext("com/fmci/common/application-context.xml");
 		
+		// Modifed code by branch1 
+		
+		ApplicationContext contextBranch2 = new ClassPathXmlApplicationContext("com/fmci/common/application-context.xml");
 		
 		CalenderInject branch1VarDeclerarcl = context.getBean("calenderinjection", CalenderInject.class);
 		
+		CalenderInject clBranch2 = context.getBean("calenderinjection", CalenderInject.class);
 		
 		cl.showTodaysDate();
 	}
