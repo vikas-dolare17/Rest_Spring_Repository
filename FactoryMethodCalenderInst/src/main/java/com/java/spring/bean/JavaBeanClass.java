@@ -5,6 +5,8 @@ public class JavaBeanClass {
 
 	private int intVar;
 	private String strVar;
+	private float floatVar;
+	
 	
 	public int getIntVar() {
 		return intVar;
@@ -19,6 +21,12 @@ public class JavaBeanClass {
 		this.strVar = strVar;
 	}
 	
+	public float getFloatVar() {
+		return floatVar;
+	}
+	public void setFloatVar(float floatVar) {
+		this.floatVar = floatVar;
+	}
 	@Override
 	public String toString() {
 		return "JavaBeanClass [intVar=" + intVar + ", strVar=" + strVar + "]";
